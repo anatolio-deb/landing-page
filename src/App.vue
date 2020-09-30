@@ -6,6 +6,19 @@
         :options="options"
         id="fullpage"
         >
+        <div class="section">
+          <v-container
+            class="d-flex
+            justify-center
+            align-center"
+            >
+            <div class="text-body-1 white--text">
+              The multilingual online translator is a Telegram bot and the part
+              of the learning course at JetBrains Academy. It supports all the
+              languages provided by the Reverso Context translation service.
+            </div>
+          </v-container>
+        </div>
       <div class="section">
         <v-container
           class="d-flex
@@ -47,7 +60,7 @@
             max-width="50%"
           ></v-img>
           <div class="text-h2 white--text">
-            Get the regular translation with many other options
+            Get the regular translation with many options available
           </div>
         </v-container>
       </div>
@@ -64,7 +77,7 @@
             dark
             x-large
           >
-            Try on Telegram
+            Try now
           </v-btn>
         </v-container>
       </div>
@@ -80,7 +93,7 @@ export default {
     return {
       options: {
         anchors: ['1', '2', '3', '4'],
-        sectionsColor: ['#6c7e87', '#6c7e87', '#6c7e87', '#6c7e87'],
+        sectionsColor: ['#6c7e87', '#6c7e87', '#6c7e87', '#6c7e87', '#6c7e87'],
       },
     }
   }
